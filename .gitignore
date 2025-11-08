@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+vault.json.enc
+.snv_config.json
+*.pyc
+export.json
+backup.json

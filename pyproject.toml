@@ -1,0 +1,9 @@
+[project]
+name = "secure-note-vault"
+version = "1.0.0"
+description = "Encrypted note vault CLI using AES (Fernet)"
+requires-python = ">=3.9"
+dependencies = ["cryptography", "typer", "rich"]
+
+[project.scripts]
+secure-note = "secure_note_vault.cli:app"
